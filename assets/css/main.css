@@ -218,7 +218,9 @@
 /* Grid */
 
 	.row {
-		border-bottom: solid 1px transparent;
+		border-bottom: solid 1px;
+		border-top: solid 1px;
+		padding-top: 35px;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -3272,4 +3274,8 @@
 #pagecards:hover{
 	cursor: pointer;
 	opacity: 0.75;
+}
+
+#sideone{
+	border-width: 2px;
 }
